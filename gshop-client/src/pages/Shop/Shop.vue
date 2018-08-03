@@ -21,7 +21,7 @@
   import ShopHeader from '../../components/ShopHeader/ShopHeader.vue'
   export default {
     mounted(){
-      this.$store.dispatch('getGoods');
+
       this.$store.dispatch('getRatings');
       this.$store.dispatch('getInfo')
     },
@@ -36,6 +36,7 @@
   .tab
     height 40px
     line-height 40px
+    background-color white
     bottom-border-1px(rgba(7, 17, 27, 0.1))
     .tab-item
       float left
