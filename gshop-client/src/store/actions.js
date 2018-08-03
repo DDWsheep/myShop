@@ -1,6 +1,6 @@
 import {
   RECEIVE_ADDRESS,
-  RECEIVE_CATEGORYS,
+  RECEIVE_CATEGORYS, RECEIVE_GOODS, RECEIVE_INFO, RECEIVE_RATINGS,
   RECEIVE_SHOPS,
   RECEIVE_USER,
   RESET_USER
@@ -10,7 +10,10 @@ import {
   reqCategory,
   reqShops,
   reqUser,
-  reqLogout
+  reqLogout,
+  reqGoods,
+  reqRatings,
+  reqInfo
 } from '../api'
 export default {
   async getAddress({commit, state}){
@@ -58,5 +61,30 @@ export default {
     if(result.code === 0){
       commit(RESET_USER)
     }
-  }
+  },
+  
+  async getGoods({commit, state}){
+    //异步获取商品
+    const result = await reqGoods();
+    if(result.code === 0){
+      const goods = result.data;
+      commit(RECEIVE_GOODS, {goods})
+    }
+  },
+  async getRatings({commit, state}){
+    //异步获取评论
+    const result = await reqRatings();
+    if(result.code === 0){
+      const ratings = result.data;
+      commit(RECEIVE_RATINGS, {ratings})
+    }
+  },
+  async getInfo({commit, state}){
+    //异步获取商家
+    const result = await reqShops();
+    if(result.code === 0){
+      const info = result.data;
+      commit(RECEIVE_INFO, {info})
+    }
+  },
 }

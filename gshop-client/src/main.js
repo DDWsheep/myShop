@@ -5,6 +5,8 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
+import './mock/mockSever'
+
 Vue.component(Button.name, Button);
 /* eslint-disable */
 new Vue({
