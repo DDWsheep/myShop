@@ -2,7 +2,7 @@
   <div>
     <div class="goods">
       <div class="menu-wrapper">
-        <ul>
+        <ul ref="menuUl">
           <li class="menu-item" v-for="(good, index) in goods"
               :class="{current: index===currentIndex}"
               :key="index" @click="clickItem(index)">
@@ -21,7 +21,7 @@
             <ul>
               <li class="food-item bottom-border-1px"
                   v-for="(food, index) in good.foods"
-                  :key="index">
+                  :key="index" @click="showFood(food)">
                 <div class="icon">
                   <img width="57" height="57"
                        :src="food.icon">
@@ -37,7 +37,7 @@
                     <span class="old" v-if="food.oldPrice">￥{{food.oldPrice}}</span>
                   </div>
                   <div class="cartcontrol-wrapper">
-                    CartControl组件
+                    <CartControl :food="food"/>
                   </div>
                 </div>
               </li>
@@ -49,18 +49,26 @@
 
         </ul>
       </div>
+
+      <ShopCart/>
     </div>
+    <Food :food="food" ref="food"/>
   </div>
 </template>
 
 <script>
   import {mapState} from 'vuex'
   import BScroll from 'better-scroll'
+
+  import CartControl from '../../../components/CartControl/CartControl'
+  import Food from '../../../components/Food/Food'
+  import ShopCart from '../../../components/ShopCart/ShopCart'
   export default {
     data(){
       return{
         scrollY: 0, //右边滚动y坐标
-        tops: [] //右边所有li的top
+        tops: [] ,//右边所有li的top
+        food: {}
       }
     },
     mounted() {
@@ -96,7 +104,7 @@
 
       _initScroll(){
         //左侧
-        new BScroll('.menu-wrapper', {
+        this.leftScroll = new BScroll('.menu-wrapper', {
           click: true //使用better-scroll派发点击事件
         });
         //右侧
@@ -115,6 +123,14 @@
         })
       },
 
+      _scrollLeftList (index) {
+        if (this.leftScroll) {
+          const li = this.$refs.menuUl.children[index]
+          //左侧列表滚动到当前分类的li上
+          this.leftScroll.scrollToElement(li, 300)
+        }
+      },
+
       clickItem(index){
         //得到index 的top
         const top = this.tops[index];
@@ -122,15 +138,34 @@
         this.scrollY = top;
         //右侧列表滚动到top处
         this.rightScroll.scrollTo(0, -top, 300)
+
+
+      },
+
+      showFood (food) {
+        //更新food状态
+        this.food = food
+        //显示food组件(父组件调用子组件方法)
+        this.$refs.food.toggleShow()
       }
+
     },
     computed: {
       ...mapState(['goods']),
 
       currentIndex () { //代表当前分类的下标
         const {scrollY, tops} = this;
-        return tops.findIndex((top, index) => scrollY >= top && scrollY < tops[index + 1])
+        const index = tops.findIndex((top, index) => scrollY >= top && scrollY < tops[index + 1])
+
+        this._scrollLeftList(index)
+
+        return index
       }
+    },
+    components: {
+      CartControl,
+      Food,
+      ShopCart
     }
   }
 </script>

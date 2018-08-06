@@ -22,7 +22,7 @@
   export default {
     mounted(){
 
-      this.$store.dispatch('getRatings');
+
       this.$store.dispatch('getInfo')
     },
     components: {

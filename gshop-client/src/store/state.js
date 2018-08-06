@@ -8,5 +8,6 @@ export default {
   user: {},
   goods: [],
   ratings: [],
-  info: {}
+  info: {},
+  cartFoods: [], //购物车数组
 }

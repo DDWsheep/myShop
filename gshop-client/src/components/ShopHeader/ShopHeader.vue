@@ -322,9 +322,9 @@
       z-index 52
       flex-direction column
       color #333
-      &.fade-enter-active, .fade-leave-active
+      &.fade-enter-active, &.fade-leave-active
         transition: opacity .5s
-      &.fade-enter, .fade-leave-to
+      &.fade-enter, &.fade-leave-to
         opacity 0
       .brief-modal-cover
         position absolute

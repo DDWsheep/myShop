@@ -1,9 +1,14 @@
 import {
   RECEIVE_ADDRESS,
-  RECEIVE_CATEGORYS, RECEIVE_GOODS, RECEIVE_INFO, RECEIVE_RATINGS,
+  RECEIVE_CATEGORYS,
+  RECEIVE_GOODS,
+  RECEIVE_INFO,
+  RECEIVE_RATINGS,
   RECEIVE_SHOPS,
   RECEIVE_USER,
-  RESET_USER
+  RESET_USER,
+  INCREMENT_FOOD_COUNT,
+  DECREMENT_FOOD_COUNT
 } from './mutation-types'
 import {
   reqAddress,
@@ -73,20 +78,32 @@ export default {
       cb && cb()
     }
   },
-  async getRatings({commit, state}){
+  async getRatings({commit, state}, cb){
     //异步获取评论
     const result = await reqRatings();
     if(result.code === 0){
       const ratings = result.data;
       commit(RECEIVE_RATINGS, {ratings})
+      //数据更新之后执行回调函数
+      cb && cb()
     }
   },
-  async getInfo({commit, state}){
+  async getInfo({commit, state}, cb){
     //异步获取商家
     const result = await reqInfo();
     if(result.code === 0){
       const info = result.data;
       commit(RECEIVE_INFO, {info})
+      //数据更新之后执行回调函数
+      cb && cb()
     }
   },
+  
+  updateFoodCount ({commit, state}, {food, isAdd}) {
+    if (isAdd) {
+      commit(INCREMENT_FOOD_COUNT, {food})
+    } else {
+      commit(DECREMENT_FOOD_COUNT, {food})
+    }
+  }
 }
