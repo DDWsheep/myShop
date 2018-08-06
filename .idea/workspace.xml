@@ -2,25 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f20af79-99f2-493c-9eef-a723d574a396" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/gshop-client/src/components/Food/Food.vue" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gshop-client/src/components/RatingSelect/RatingSelect.vue" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gshop-client/src/components/split/Split.vue" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gshop-client/src/filters/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gshop-client/src/common/imgs/loading.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gshop-server_final/public/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gshop-server_final/public/static/css/app.a758393cadfd9d62540db0918009ccba.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gshop-server_final/public/static/css/app.a758393cadfd9d62540db0918009ccba.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gshop-server_final/public/static/css/reset.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gshop-server_final/public/static/img/loading.c1486d8.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gshop-server_final/public/static/img/person.d607000.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gshop-server_final/public/static/js/0.277a82eeaf68a1cb2dd6.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gshop-server_final/public/static/js/0.277a82eeaf68a1cb2dd6.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gshop-server_final/public/static/js/1.6c22e48b7e9b57cbdda0.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gshop-server_final/public/static/js/1.6c22e48b7e9b57cbdda0.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gshop-server_final/public/static/js/2.fbe720e4dbbfa43cb63b.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gshop-server_final/public/static/js/2.fbe720e4dbbfa43cb63b.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gshop-server_final/public/static/js/3.29f93a17dcfcad6b6065.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gshop-server_final/public/static/js/3.29f93a17dcfcad6b6065.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gshop-server_final/public/static/js/4.2350f844541ca5b5bc66.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gshop-server_final/public/static/js/4.2350f844541ca5b5bc66.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gshop-server_final/public/static/js/app.15c583c1df6c9460e183.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gshop-server_final/public/static/js/app.15c583c1df6c9460e183.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gshop-server_final/public/static/js/manifest.8806877d4040634b9320.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gshop-server_final/public/static/js/manifest.8806877d4040634b9320.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gshop-server_final/public/static/js/vendor.a821a77616859ad5e3fc.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gshop-server_final/public/static/js/vendor.a821a77616859ad5e3fc.js.map" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/gshop-client/package-lock.json" afterPath="$PROJECT_DIR$/gshop-client/package-lock.json" />
       <change beforePath="$PROJECT_DIR$/gshop-client/package.json" afterPath="$PROJECT_DIR$/gshop-client/package.json" />
-      <change beforePath="$PROJECT_DIR$/gshop-client/src/components/ShopHeader/ShopHeader.vue" afterPath="$PROJECT_DIR$/gshop-client/src/components/ShopHeader/ShopHeader.vue" />
+      <change beforePath="$PROJECT_DIR$/gshop-client/src/api/index.js" afterPath="$PROJECT_DIR$/gshop-client/src/api/index.js" />
+      <change beforePath="$PROJECT_DIR$/gshop-client/src/components/Food/Food.vue" afterPath="$PROJECT_DIR$/gshop-client/src/components/Food/Food.vue" />
+      <change beforePath="$PROJECT_DIR$/gshop-client/src/components/ShopCart/ShopCart.vue" afterPath="$PROJECT_DIR$/gshop-client/src/components/ShopCart/ShopCart.vue" />
       <change beforePath="$PROJECT_DIR$/gshop-client/src/main.js" afterPath="$PROJECT_DIR$/gshop-client/src/main.js" />
       <change beforePath="$PROJECT_DIR$/gshop-client/src/pages/Shop/Shop.vue" afterPath="$PROJECT_DIR$/gshop-client/src/pages/Shop/Shop.vue" />
-      <change beforePath="$PROJECT_DIR$/gshop-client/src/pages/Shop/ShopGoods/CartControl/CartControl.vue" afterPath="$PROJECT_DIR$/gshop-client/src/components/CartControl/CartControl.vue" />
       <change beforePath="$PROJECT_DIR$/gshop-client/src/pages/Shop/ShopGoods/ShopGoods.vue" afterPath="$PROJECT_DIR$/gshop-client/src/pages/Shop/ShopGoods/ShopGoods.vue" />
-      <change beforePath="$PROJECT_DIR$/gshop-client/src/pages/Shop/ShopGoods/ShopGoods/ShopCart.vue" afterPath="$PROJECT_DIR$/gshop-client/src/components/ShopCart/ShopCart.vue" />
-      <change beforePath="$PROJECT_DIR$/gshop-client/src/pages/Shop/ShopRatings/ShopRatings.vue" afterPath="$PROJECT_DIR$/gshop-client/src/pages/Shop/ShopRatings/ShopRatings.vue" />
-      <change beforePath="$PROJECT_DIR$/gshop-client/src/store/actions.js" afterPath="$PROJECT_DIR$/gshop-client/src/store/actions.js" />
-      <change beforePath="$PROJECT_DIR$/gshop-client/src/store/getters.js" afterPath="$PROJECT_DIR$/gshop-client/src/store/getters.js" />
-      <change beforePath="$PROJECT_DIR$/gshop-client/src/store/mutation-types.js" afterPath="$PROJECT_DIR$/gshop-client/src/store/mutation-types.js" />
-      <change beforePath="$PROJECT_DIR$/gshop-client/src/store/mutations.js" afterPath="$PROJECT_DIR$/gshop-client/src/store/mutations.js" />
-      <change beforePath="$PROJECT_DIR$/gshop-client/src/store/state.js" afterPath="$PROJECT_DIR$/gshop-client/src/store/state.js" />
+      <change beforePath="$PROJECT_DIR$/gshop-client/src/pages/Shop/ShopInfo/ShopInfo.vue" afterPath="$PROJECT_DIR$/gshop-client/src/pages/Shop/ShopInfo/ShopInfo.vue" />
+      <change beforePath="$PROJECT_DIR$/gshop-client/src/router/index.js" afterPath="$PROJECT_DIR$/gshop-client/src/router/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,59 +51,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ShopCart.vue" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ShopCart.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gshop-client/src/components/ShopCart/ShopCart.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="94" column="35" lean-forward="false" selection-start-line="94" selection-start-column="35" selection-end-line="94" selection-end-column="35" />
+            <state relative-caret-position="86">
+              <caret line="235" column="25" lean-forward="false" selection-start-line="235" selection-start-column="25" selection-end-line="235" selection-end-column="25" />
               <folding>
-                <element signature="e#1507#1542#0" expanded="true" />
-                <element signature="e#1862#2159#0" expanded="false" />
-                <element signature="e#2180#2331#0" expanded="false" />
+                <element signature="n#div#0;n#transition#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+                <element signature="e#1997#2294#0" expanded="false" />
+                <element signature="e#2315#2466#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShopGoods.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gshop-client/src/pages/Shop/ShopGoods/ShopGoods.vue">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gshop-client/src/api/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2806">
-              <caret line="167" column="14" lean-forward="false" selection-start-line="167" selection-start-column="14" selection-end-line="167" selection-end-column="14" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="e#1859#1888#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getters.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gshop-client/src/store/getters.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="state.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gshop-client/src/store/state.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mutations.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gshop-client/src/store/mutations.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="989">
-              <caret line="55" column="7" lean-forward="true" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
+            <state relative-caret-position="69">
+              <caret line="3" column="2" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -154,34 +134,35 @@
         <option value="E:/DDWsheep.github.io/_config.yml" />
         <option value="$PROJECT_DIR$/gshop-client/src/App.vue" />
         <option value="$PROJECT_DIR$/gshop-client/src/pages/Profile/Profile.vue" />
-        <option value="$PROJECT_DIR$/gshop-client/src/router/index.js" />
-        <option value="$PROJECT_DIR$/gshop-client/src/pages/Shop/ShopInfo/ShopInfo.vue" />
         <option value="$PROJECT_DIR$/gshop-client/src/components/ShopList/ShopList.vue" />
         <option value="$USER_HOME$/Desktop/data.json" />
         <option value="$PROJECT_DIR$/gshop-client/src/mock/data.json" />
         <option value="$PROJECT_DIR$/gshop-client/src/mock/mockSever.js" />
-        <option value="$PROJECT_DIR$/gshop-client/src/api/index.js" />
         <option value="$PROJECT_DIR$/gshop-client/src/pages/Shop/ShopGoods/ShopGoods/ShopCart.vue" />
         <option value="$PROJECT_DIR$/gshop-client/src/pages/Shop/ShopGoods/CartControl/CartControl.vue" />
         <option value="$PROJECT_DIR$/gshop-client/src/pages/Shop/ShopGoods/Food/Food.vue" />
         <option value="$PROJECT_DIR$/gshop-client/src/pages/Shop/ShopGoods/test.vue" />
         <option value="$PROJECT_DIR$/gshop-client/src/store/mutation-types.js" />
         <option value="$PROJECT_DIR$/gshop-client/src/components/ShopHeader/ShopHeader.vue" />
-        <option value="$PROJECT_DIR$/gshop-client/src/components/Food/Food.vue" />
         <option value="$PROJECT_DIR$/gshop-client/src/components/CartControl/CartControl.vue" />
-        <option value="$PROJECT_DIR$/gshop-client/src/pages/Shop/Shop.vue" />
         <option value="$PROJECT_DIR$/gshop-client/src/components/split/Split.vue" />
         <option value="$PROJECT_DIR$/gshop-client/src/store/actions.js" />
         <option value="$PROJECT_DIR$/gshop-client/src/filters/index.js" />
-        <option value="$PROJECT_DIR$/gshop-client/src/main.js" />
         <option value="$PROJECT_DIR$/gshop-client/src/components/CartSelect/CartSelect.vue" />
         <option value="$PROJECT_DIR$/gshop-client/src/components/RatingSelect/RatingSelect.vue" />
         <option value="$PROJECT_DIR$/gshop-client/src/pages/Shop/ShopRatings/ShopRatings.vue" />
         <option value="$PROJECT_DIR$/gshop-client/src/store/state.js" />
-        <option value="$PROJECT_DIR$/gshop-client/src/pages/Shop/ShopGoods/ShopGoods.vue" />
         <option value="$PROJECT_DIR$/gshop-client/src/store/mutations.js" />
         <option value="$PROJECT_DIR$/gshop-client/src/store/getters.js" />
+        <option value="$PROJECT_DIR$/gshop-client/src/pages/Shop/ShopGoods/ShopGoods.vue" />
+        <option value="$PROJECT_DIR$/gshop-client/src/pages/Shop/ShopInfo/ShopInfo.vue" />
+        <option value="$PROJECT_DIR$/gshop-client/src/pages/Shop/Shop.vue" />
+        <option value="$PROJECT_DIR$/gshop-client/src/router/index.js" />
+        <option value="$PROJECT_DIR$/gshop-client/package.json" />
+        <option value="$PROJECT_DIR$/gshop-client/src/main.js" />
+        <option value="$PROJECT_DIR$/gshop-client/src/components/Food/Food.vue" />
         <option value="$PROJECT_DIR$/gshop-client/src/components/ShopCart/ShopCart.vue" />
+        <option value="$PROJECT_DIR$/gshop-client/src/api/index.js" />
       </list>
     </option>
   </component>
@@ -208,8 +189,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="7" />
-    <option name="y" value="23" />
+    <option name="x" value="399" />
+    <option name="y" value="50" />
     <option name="width" value="904" />
     <option name="height" value="755" />
   </component>
@@ -231,6 +212,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -247,7 +229,20 @@
               <item name="04.shop" type="b2602c69:ProjectViewProjectNode" />
               <item name="04.shop" type="462c0819:PsiDirectoryNode" />
               <item name="gshop-client" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="04.shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="04.shop" type="462c0819:PsiDirectoryNode" />
+              <item name="gshop-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="04.shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="04.shop" type="462c0819:PsiDirectoryNode" />
+              <item name="gshop-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="04.shop" type="b2602c69:ProjectViewProjectNode" />
@@ -267,50 +262,7 @@
             <path>
               <item name="04.shop" type="b2602c69:ProjectViewProjectNode" />
               <item name="04.shop" type="462c0819:PsiDirectoryNode" />
-              <item name="gshop-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="04.shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="04.shop" type="462c0819:PsiDirectoryNode" />
-              <item name="gshop-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="Shop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="04.shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="04.shop" type="462c0819:PsiDirectoryNode" />
-              <item name="gshop-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="Shop" type="462c0819:PsiDirectoryNode" />
-              <item name="ShopGoods" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="04.shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="04.shop" type="462c0819:PsiDirectoryNode" />
-              <item name="gshop-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="04.shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="04.shop" type="462c0819:PsiDirectoryNode" />
               <item name="gshop-server_final" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="04.shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="04.shop" type="462c0819:PsiDirectoryNode" />
-              <item name="gshop-server_final" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="04.shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="04.shop" type="462c0819:PsiDirectoryNode" />
-              <item name="gshop-server_final" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="04.shop" type="b2602c69:ProjectViewProjectNode" />
@@ -318,29 +270,16 @@
               <item name="gshop-server_final" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="04.shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="04.shop" type="462c0819:PsiDirectoryNode" />
-              <item name="gshop-server_final" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="04.shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="04.shop" type="462c0819:PsiDirectoryNode" />
-              <item name="gshop-server_final" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/ReactProject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
@@ -359,11 +298,11 @@
       <recent name="E:\vue\04.shop\gshop-client\src\pages\Order" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\vue\04.shop\gshop-server_final\public" />
+      <recent name="E:\vue\04.shop\gshop-client\src\common" />
       <recent name="E:\vue\04.shop\gshop-client\src\mock" />
       <recent name="E:\vue\04.shop\gshop-server_final\data" />
       <recent name="E:\vue\04.shop\gshop-client\src\components\Stars\images" />
-      <recent name="E:\vue\04.shop\gshop-client\src\components\ShopList\images" />
-      <recent name="E:\vue\04.shop\gshop-client\src\pages\Login\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -426,17 +365,20 @@
       <workItem from="1533361632786" duration="5441000" />
       <workItem from="1533383120123" duration="1311000" />
       <workItem from="1533430687026" duration="21737000" />
-      <workItem from="1533514243855" duration="758000" />
+      <workItem from="1533514243855" duration="7831000" />
+      <workItem from="1533534673915" duration="639000" />
+      <workItem from="1533553810829" duration="1880000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128316000" />
+    <option name="totallyTimeSpent" value="137908000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="7" y="23" width="904" height="755" extended-state="0" />
+    <frame x="399" y="50" width="904" height="755" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10781991" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3649289" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -444,7 +386,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3504" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.011848342" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1764706" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2789916" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938388" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5552" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -459,39 +401,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gshop-client/src/pages/Login/Login.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2185">
-          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gshop-client/src/api/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gshop-client/.babelrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gshop-server_final/util/sms_util.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="27" column="49" lean-forward="false" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gshop-client/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-207">
@@ -555,27 +469,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gshop-client/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1288">
-          <caret line="67" column="19" lean-forward="false" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gshop-client/src/pages/Shop/ShopInfo/ShopInfo.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gshop-client/src/components/ShopList/ShopList.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/json.data" />
     <entry file="file://$USER_HOME$/Desktop/data.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -595,13 +488,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gshop-client/src/api/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -642,27 +528,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gshop-client/src/pages/Shop/ShopGoods/test.vue" />
-    <entry file="file://$PROJECT_DIR$/gshop-client/src/components/ShopHeader/ShopHeader.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="425" column="11" lean-forward="true" selection-start-line="425" selection-start-column="11" selection-end-line="425" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gshop-client/src/components/Food/Food.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="96" column="16" lean-forward="true" selection-start-line="96" selection-start-column="16" selection-end-line="96" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gshop-client/src/pages/Shop/Shop.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gshop-client/src/components/CartControl/CartControl.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -703,6 +568,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-851">
           <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -717,49 +583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="45" column="12" lean-forward="false" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gshop-client/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gshop-client/src/store/getters.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gshop-client/src/store/state.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gshop-client/src/store/mutations.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="989">
-          <caret line="55" column="7" lean-forward="true" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gshop-client/src/pages/Shop/ShopGoods/ShopGoods.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2806">
-          <caret line="167" column="14" lean-forward="false" selection-start-line="167" selection-start-column="14" selection-end-line="167" selection-end-column="14" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="e#1859#1888#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -805,15 +628,149 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gshop-client/src/components/ShopCart/ShopCart.vue">
+    <entry file="file://$PROJECT_DIR$/gshop-client/src/store/mutations.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="55" column="7" lean-forward="true" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gshop-client/src/store/state.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gshop-client/src/store/getters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gshop-client/node_modules/vue-lazyload/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="96" column="13" lean-forward="false" selection-start-line="96" selection-start-column="13" selection-end-line="96" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gshop-client/src/components/ShopList/ShopList.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-391">
+          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gshop-client/src/components/ShopHeader/ShopHeader.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="425" column="11" lean-forward="false" selection-start-line="425" selection-start-column="11" selection-end-line="425" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gshop-client/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#21#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gshop-client/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#22#0" expanded="false" />
+            <element signature="e#490#534#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gshop-client/src/pages/Shop/Shop.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="21" column="55" lean-forward="false" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gshop-client/src/components/Food/Food.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
-          <caret line="94" column="35" lean-forward="false" selection-start-line="94" selection-start-column="35" selection-end-line="94" selection-end-column="35" />
+          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gshop-client/src/pages/Shop/ShopGoods/ShopGoods.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="175" column="8" lean-forward="false" selection-start-line="175" selection-start-column="8" selection-end-line="175" selection-end-column="8" />
           <folding>
-            <element signature="e#1507#1542#0" expanded="true" />
-            <element signature="e#1862#2159#0" expanded="false" />
-            <element signature="e#2180#2331#0" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gshop-client/src/pages/Shop/ShopInfo/ShopInfo.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="105" column="22" lean-forward="false" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="22" />
+          <folding>
+            <element signature="n#section#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="e#2028#2063#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gshop-client/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gshop-server_final/api/ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gshop-client/src/components/ShopCart/ShopCart.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="235" column="25" lean-forward="false" selection-start-line="235" selection-start-column="25" selection-end-line="235" selection-end-column="25" />
+          <folding>
+            <element signature="n#div#0;n#transition#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="e#1997#2294#0" expanded="false" />
+            <element signature="e#2315#2466#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gshop-server_final/public/static/js/0.277a82eeaf68a1cb2dd6.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gshop-client/src/api/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="2" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
